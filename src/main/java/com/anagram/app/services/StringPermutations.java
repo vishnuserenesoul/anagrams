@@ -10,9 +10,7 @@ public class StringPermutations {
         if(s!=null) {
             permute(s,0, s.length()-1,strings);
         }
-
         return strings;
-
     }
 
 
@@ -54,11 +52,4 @@ public class StringPermutations {
         return String.valueOf(charArray);
     }
 
-    public static void main(String[] args) throws java.lang.Exception {
-        // your code goes here
-       List<String> strings= StringPermutations.get("abc");
-       for (String s: strings)
-           System.out.println(s);
-
-    }
 }
